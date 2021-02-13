@@ -1,10 +1,13 @@
 {
-  "name": "negroni-core",
+  "name": "@negroni-app/negroni-core",
   "version": "0.1.0",
   "description": "n-participant Diffie-Hellman for client-side JS",
-  "main": "lib/index.ts",
+  "files": ["dist"],
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "tsc"
   },
   "author": "",
   "license": "ISC",
